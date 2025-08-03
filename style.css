@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .container {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  
+  .profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 0 20px;
+    display: block;
+    object-fit: cover;
+  }
+
+  img {
+    user-drag: none;        
+    -webkit-user-drag: none; 
+    user-select: none;       
+  }
+  
+
+  
+  h2 {
+    font-weight: bold;
+    margin-bottom: 40px;
+    font-size: 2rem;
+  }
+  
+  .message-row {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    color: #555;
+    width: 100%;
+  }
+  
+    a {
+    color: #1f1f1f;
+    text-decoration: none;
+    font-size: 1.1rem;
+  }
+
+    a:hover {
+    color: #555;
+    text-decoration: underline;
+  }
+
+  .home-btn{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+    .home-btn a {
+        font-size: 1rem;
+    }
+
+  .timestamp {
+    color: #555;
+    text-decoration: none;
+  }
+
+  .intro{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+}
+
+.intro .title-intro{
+    width: 100%;
+}
+
+.txt-content{
+ 
+    padding: 5px 0px 15px 0px;
+  }
+
+  .txt-content p{
+    text-align: justify;
+  }
+
+hr{
+    width: 100%;
+    margin: auto;
+    margin-top: 15px;
+    border: solid 0.1px rgb(77, 77, 77);
+}
+
+.links-row{
+    padding-top: 10px;
+    width: 100%;
+
+}
+
+.img-content img {
+    width: 100%;
+}
+
+.pdf-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.pdf-file {
+    border: #555 2px solid;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    width: 45%;
+    margin-top: 15px;
+}
+
+.pdf-file a {
+    width: 100%;
+    font-size: 0.7rem;
+}
