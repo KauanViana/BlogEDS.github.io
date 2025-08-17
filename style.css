@@ -19,6 +19,7 @@
     display: flex;
     flex-direction: column;
     align-items: start;
+    position: absolute;
   }
   
   .profile-img {
@@ -93,7 +94,6 @@
 }
 
 .txt-content{
- 
     padding: 5px 0px 15px 0px;
   }
 
